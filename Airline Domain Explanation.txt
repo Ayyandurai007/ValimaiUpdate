@@ -1,0 +1,24 @@
+Airline Domain Explanation:
+----------------------------
+-->I am working in an airline domain. Its a leading airline in "kenya". 
+-->In my project there are several modules such as Booking,Baggage, Checkin,Login,Flight Status modules,etc.
+-->In that I am working in booking module. 
+-->In booking module, there are several pages such as Home page, flight selection page, seat selection page, payment page, etc.
+-->As an automation tester, I need to validate end to end functionality of my module. 
+-->Initially I will be in Home page, In that page I will be validating the trip type, passenger selection, source and destination
+   selection, travel date selection and promocode. Once it is done, I will be validating that user is able to click search button.
+-->Once user clicks search button, I will be validating user is able to see the flight seleaction page, In that page I will be 
+   validating whether user is able to see the flight details with flight name, departure and arrival time, travel duration. 
+   Then I will verify user is able to select the cabin as in my project there are cabins such as Economy, Premium Economy 
+   and Business class. I verify once user select the cabin, the particular amount is added to Total billed amount.
+-->Then I will verify user is navigated to Passenger Details screen, in that I will validating user is able to give their 
+   information to book the ticket in mandatatory fields.
+-->Then I will verify user is able to see Seat selection page, in that page i verify user is able to see the graphical view
+   of the seats. And I validate user is able to select different types of seats as regular or preferred seats and for preferred
+   seats, the particular amount is added to the total billed amount.
+-->Then I will verify user is able to see payment page and able to make payment through different types of payment modes.
+-->Then I verify user is able to see Booking confirmation page, in that i verify user is able to see the PNR and ticket in a
+   downaloadable format.
+-->Then I move to  my booking page, in that I validate whether user is able to cancel the ticket by entering Booking Reference 
+   Number/PNR and Last name and once ticket is cancelled i verify on the seat selection page as the particular cancelled seat
+   is visible as available. Then I verify user is able to change seats, flights and travel time through manage my booking page.
